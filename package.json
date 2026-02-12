@@ -1,0 +1,15 @@
+{
+  "name": "ovvoc-test-growth-20",
+  "version": "1.0.0",
+  "description": "Prisma 4 to 5 ORM migration test — middleware, rejectOnNotFound, schema changes",
+  "main": "src/db.js",
+  "scripts": {
+    "test": "node test/config.test.js"
+  },
+  "dependencies": {
+    "@prisma/client": "4.16.2"
+  },
+  "devDependencies": {
+    "prisma": "4.16.2"
+  }
+}
